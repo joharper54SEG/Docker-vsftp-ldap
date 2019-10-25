@@ -1,0 +1,16 @@
+[template]
+src = "vsftpd.conf.tmpl"
+dest = "/etc/vsftpd.conf"
+keys = [
+  "/vsftpd/pasv/address",
+  "/vsftpd/pasv/min/port",
+  "/vsftpd/pasv/max/port",
+  "/vsftpd/pasv/enable",
+  "/vsftpd/ssl/enable",
+  "/vsftpd/ssl/tlsv1",
+  "/vsftpd/ssl/sslv2",
+  "/vsftpd/ssl/sslv3",
+  "/vsftpd/ssl/ciphers",
+  "/vsftpd/ssl/publickey",
+  "/vsftpd/ssl/privatekey",
+]

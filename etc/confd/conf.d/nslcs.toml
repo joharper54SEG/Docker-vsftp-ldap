@@ -1,0 +1,12 @@
+[template]
+src = "nslcd.conf.tmpl"
+dest = "/etc/nslcd.conf"
+keys = [
+  "/ldap/uri",
+  "/ldap/base",
+  "/ldap/binddn",
+  "/ldap/bindpw",
+  "/ldap/filtermemberof",
+  "/ldap/ssl/enable",
+  "/ldap/ssl/cacertfile",
+]
